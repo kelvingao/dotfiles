@@ -9,6 +9,11 @@ then
 	ln -s $dotfiles_dir/vim/vimrc.vim ~/.vimrc
 fi
 
+if [[ ! -a ~/.fonts ]]
+then
+	ln -s $dotfiles_dir/misc/fonts ~/.fonts
+fi
+
 if [[ ! -a ~/.gitignore_global ]]
 then
 	ln -s $dotfiles_dir/misc/gitignore_global ~/.gitignore_global
