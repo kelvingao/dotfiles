@@ -24,6 +24,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
+Plugin 'kelvingao/kelvin-colorscheme'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                        turn on filetype plugins                         "
@@ -39,6 +40,7 @@ filetype plugin indent on
 "                            General settings                             "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+colorscheme kelvin	" sets the colorscheme
 set background=light	" enable for light terminals
 set t_Co=256		" enable 256 color terminals
 set laststatus=2	" the statusline is now always shown
