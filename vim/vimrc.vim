@@ -82,3 +82,13 @@ nnoremap <leader>bq :bp <BAR> bd #<CR>
 
 " Show all open buffers and their status
 nnoremap <leader>bl :ls<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                            custom mappings                              "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" with this, we can now type "jk" to exit out of insert mode
+" if we really wanted to type "jk" then just type one char, wait half a sec,
+" type another
+inoremap jk <Esc>
+vnoremap jk <Esc>
