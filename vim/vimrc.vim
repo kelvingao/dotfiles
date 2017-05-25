@@ -25,6 +25,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'kelvingao/kelvin-colorscheme'
+Plugin 'gerw/vim-HiLinkTrace'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                        turn on filetype plugins                         "
