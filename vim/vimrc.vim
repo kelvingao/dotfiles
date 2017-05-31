@@ -26,6 +26,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'kelvingao/kelvin-colorscheme'
 Plugin 'gerw/vim-HiLinkTrace'
+Plugin 'wincent/Command-T'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                        turn on filetype plugins                         "
@@ -51,6 +52,11 @@ set showcmd             " show typed command in status bar
 set ruler               " show cursor position in status bar
 set cursorline          " highlights the current line
 set hlsearch		" highlights the search word
+
+" Switch syntax highlighting on, when the terminal has colors
+if &t_Co > 2 || has("gui_running")
+  syntax on
+endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                Airline                                  "
