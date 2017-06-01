@@ -27,6 +27,7 @@ Plugin 'bling/vim-airline'
 Plugin 'kelvingao/kelvin-colorscheme'
 Plugin 'gerw/vim-HiLinkTrace'
 Plugin 'wincent/Command-T'
+Plugin 'godlygeek/tabular'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                        turn on filetype plugins                         "
@@ -42,24 +43,24 @@ filetype plugin indent on
 "                            General settings                             "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme kelvin	" sets the colorscheme
-set background=light	" enable for light terminals
-set t_Co=256		" enable 256 color terminals
-set laststatus=2	" the statusline is now always shown
-set number		" enable line numbers
-set noshowmode          " no show mode in status bar (insert/replace/...)
-set showcmd             " show typed command in status bar
-set ruler               " show cursor position in status bar
-set cursorline          " highlights the current line
-set hlsearch		" highlights the search word
+colorscheme kelvin   " sets the colorscheme
+set background=light " enable for light terminals
+set t_Co=256         " enable 256 color terminals
+set laststatus=2     " the statusline is now always shown
+set number           " enable line numbers
+set noshowmode       " no show mode in status bar (insert/replace/...)
+set showcmd          " show typed command in status bar
+set ruler            " show cursor position in status bar
+set cursorline       " highlights the current line
+set hlsearch         " highlights the search word
 
 " Switch syntax highlighting on, when the terminal has colors
 if &t_Co > 2 || has("gui_running")
   syntax on
 endif
 
-set tabstop=4		" number of spaces a tab counts for
-set shiftwidth=4        " spaces for autoindents
+set tabstop=4    " number of spaces a tab counts for
+set shiftwidth=4 " spaces for autoindents
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                Airline                                  "
