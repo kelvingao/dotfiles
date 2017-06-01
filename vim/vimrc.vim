@@ -58,6 +58,9 @@ if &t_Co > 2 || has("gui_running")
   syntax on
 endif
 
+set tabstop=4		" number of spaces a tab counts for
+set shiftwidth=4        " spaces for autoindents
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                Airline                                  "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
