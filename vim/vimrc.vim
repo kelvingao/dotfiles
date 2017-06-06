@@ -98,6 +98,9 @@ nnoremap <leader>bl :ls<CR>
 "                            custom mappings                              "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" our <leader> will be the comma key
+let mapleader=","
+
 " with this, we can now type "jk" to exit out of insert mode
 " if we really wanted to type "jk" then just type one char, wait half a sec,
 " type another
