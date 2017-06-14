@@ -28,6 +28,7 @@ Plugin 'kelvingao/kelvin-colorscheme'
 Plugin 'gerw/vim-HiLinkTrace'
 Plugin 'wincent/Command-T'
 Plugin 'godlygeek/tabular'
+Plugin 'tomtom/tcomment_vim'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                        turn on filetype plugins                         "
