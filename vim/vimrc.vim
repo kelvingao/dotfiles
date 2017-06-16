@@ -29,6 +29,7 @@ Plugin 'gerw/vim-HiLinkTrace'
 Plugin 'wincent/Command-T'
 Plugin 'godlygeek/tabular'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'Valloric/ListToggle'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                        turn on filetype plugins                         "
@@ -62,6 +63,14 @@ endif
 
 set tabstop=4    " number of spaces a tab counts for
 set shiftwidth=4 " spaces for autoindents
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                                ListToggle                               "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:lt_location_list_toggle_map = '<leader>L'
+let g:lt_quickfix_list_toggle_map = '<leader>q'
+
+let g:lt_height = 10
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                Airline                                  "
