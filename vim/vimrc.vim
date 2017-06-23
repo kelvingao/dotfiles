@@ -31,6 +31,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'Valloric/ListToggle'
 Plugin 'majutsushi/tagbar'
+Plugin 'Rykka/colorv.vim'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                        turn on filetype plugins                         "
